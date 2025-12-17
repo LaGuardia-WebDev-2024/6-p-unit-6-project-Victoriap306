@@ -18,6 +18,7 @@ void draw(){
   ellipse(150,85,200,200);
   ellipse(160,100,200,200);
   ellipse(180,136,180,180);
+  ellipse(79,204,40,40);
   
   beginShape ();
   vertex(58,118)
@@ -36,24 +37,45 @@ void draw(){
   vertex(233,236)
   endShape();
 
-  // beige mouth 
+  // face
+  fill()
+  stroke(0,0,0)
+  strokeWeight(2)
+  ellipse(250,147,80,80);
+  ellipse(178,147,80,80);
+  fill(0,0,0)
+  ellipse(171,149,10,10);
+  ellipse(246,143,10,10);
+   
+  fill(234,199,37)
+  noStroke()
+  beginShape();
+  vertex(212,165)
+  vertex(247,165)
+  vertex(248,195)
+  vertex(212,195)
+  endShape();
+   
+  ellipse(249,179,30,30)
+
   fill(251,216,190)
-  ellipse(206,246,140,140);
-  
-
-  //eyes
+  ellipse(180,249,110,110)
 
 
-  //shirt
+
+  //bottom
+  noStroke()
+  fill(234,199,37)
   beginShape();
   vertex(69,319)
   Vertex(52,334)
   Vertex(39,400)
   Vertex(176,400)
   endShape();
+  
 
-  //outline for shirt 
-  stroke(0,0,0)
+  
+
 
 }
 
