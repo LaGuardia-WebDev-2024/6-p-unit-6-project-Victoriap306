@@ -61,11 +61,9 @@ void draw(){
   fill(251,216,190)
   ellipse(180,249,110,110)
 
-
-
-  //bottom
-  noStroke()
-  fill(234,199,37)
+  fill()
+  stroke(0,0,0)
+  strokeWeight(1)
   beginShape();
   vertex(69,319)
   Vertex(52,334)
